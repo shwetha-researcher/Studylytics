@@ -1,14 +1,15 @@
-# 🧠 Studylytics: Cognitive Learning Analytics & Reflection Platform
+# Studylytics: Cognitive Learning Analytics & Reflection Platform
 Studylytics is a research-oriented web ecosystem designed to map and analyze student learning behaviors, focus patterns, and reflective study habits. Bridging concepts from **Human-Computer Interaction (HCI)**, **Cognitive Psychology**, and **Educational Technology**, the platform translates behavioral metrics into actionable cognitive profiles.
 
 * **Academic Evaluation:** Awarded a **99/100** score by external academic invigilators during the final-year viva presentation.
 
 ---
 
-## 🔬 Core Architecture & Features
-* **Behavioral Data Tracking:** Captures fine-grained user interaction data during quiz sessions, tracking response latency, focus shifts, and reasoning speeds.
-* **Psychology-Tech Integration:** Implements structured self-reflection modules to evaluate and counter subjective cognitive load.
-* **Predictive ML Pipelines:** Leverages **Random Forest Classifiers** and Pearson correlation analysis via Scikit-Learn to map raw behavioral metrics against specific cognitive traits.
+## 🔬 Key Research Findings & Data Insights
+* **The Latency-Accuracy Paradox:** Discovered a negative Pearson correlation (**-0.025**) between response time and accuracy, demonstrating that extended latencies mirror cognitive confusion rather than productive deliberation.
+* **Reasoning Bottlenecks:** Identified abstract reasoning as a major cognitive bottleneck, yielding the lowest accuracy (**69%**) and accounting for **72%** of all recorded errors.
+* **Diminishing Focus Returns:** Performance peaked cleanly at Focus Level 7 (**93.3% accuracy**) but degraded at Focus Level 8 (**86.7%**) due to mental fatigue, despite a **60% increase** in time spent.
+* **Predictive AI Modeling:** Trained a **Random Forest Classifier** using Scikit-Learn that achieved **85% overall accuracy** in predicting user performance based on behavioral interaction metadata.
 
 ---
 
@@ -20,9 +21,16 @@ Studylytics is a research-oriented web ecosystem designed to map and analyze stu
 
 ---
 
-## 📁 Suggested Directory Structure
-Ensure your uploaded files are organized cleanly like this:
+## 📁 Repository Structure
+```text
 ├── documents/
-│   └── Studylytics_Research_Report.pdf  # Your compiled project report
+│   └── studylytics_research-report.pdf  # Comprehensive pilot study report
 └── README.md
+```
 
+---
+
+## 📄 Project Documentation
+The complete, comprehensive research report detailing the dataset structures, machine learning methodologies, and cognitive evaluation frameworks is available in the repository.
+
+👉 **[View the Full Research Report PDF](./documents/Studylytics_Research_Report.pdf)**
