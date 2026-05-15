@@ -22,14 +22,7 @@ Studylytics is a research-oriented web ecosystem designed to map and analyze stu
 
 ## 📁 Suggested Directory Structure
 Ensure your uploaded files are organized cleanly like this:
-```text
-├── app/
-│   ├── static/          # CSS, JS, Chart.js scripts, UI Assets
-│   ├── templates/       # HTML view engines/pages
-│   ├── models/          # ML scripts, Random Forest configurations
-│   └── routes.py        # Flask application controllers
-├── database/
-│   └── schema.sql       # MySQL table structures and relational schemas
-├── requirements.txt     # Python dependency mappings
+├── documents/
+│   └── Studylytics_Research_Report.pdf  # Your compiled project report
 └── README.md
-```
+
