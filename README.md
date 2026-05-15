@@ -33,4 +33,4 @@ Studylytics is a research-oriented web ecosystem designed to map and analyze stu
 ## 📄 Project Documentation
 The complete, comprehensive research report detailing the dataset structures, machine learning methodologies, and cognitive evaluation frameworks is available in the repository.
 
-👉 **[View the Full Research Report PDF](./documents/studylytics-research-report.pdf)**
+👉 **[View the Full Research Report PDF](./documents/studylytics_research-report.pdf)**
